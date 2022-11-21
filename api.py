@@ -24,6 +24,9 @@ def names(first_name: bool = True, last_name :bool= True ):
     if last_name:
             full_names += 'Wiz'
 
+    if full_name:
+        full_names = 'Hello my name is Miguel Wiz'
+
     return full_names
 
 
